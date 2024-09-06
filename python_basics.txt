@@ -1,0 +1,117 @@
+# 1. Explain the key features of Python that make it a popular choice for programming.
+
+soln- The key features which make python a popular choice for programming include :
+ a) it has a simple syntax, structure and keywords
+ b) it has a vast number of libraries eg. pandas, flask, etc.
+ c) it is an object oriented programming
+ d) used in embedded devices
+ e) used in robotics, machine learning, chat gpt, etc.
+# 2. Describe the role of predefined keywords in Python and provide examples of how they are used in a program.
+
+soln- Predefined keywords have special meanings used to define a syntax of the code. It cannot be used as an identifier, function or variable names.
+eg: if - used to make a conditional statement, for - used to create a loop, else- conditional statement, break- bused to terminate the loop, etc.
+
+# example of predefined keywords 
+
+l = [ 2, 4 , 6 , "Shukla"]
+for i in l:
+    print (i)
+else:
+    print("while loop is executed sucessfully without any break")
+# 3. Compare and contrast mutable and immutable objects in Python with examples.
+
+soln- Mutable data type are those whose values can be changed or modified. eg: list, dictionaries, set
+
+Immutable data type are those whose values can't be changed or modified. eg: strings and tuples.
+# 4. Discuss the different types of operators in Python and provide examples of how they are used.
+
+soln- different types of operators are : Arithmetic, comparison, assignment, logical, membership, identity and bitwise operators.
+
+Arithmetic operators:
+  a) + used for addition - a+b
+  b) - used for subtraction - a-b
+  C) * used for multiplication - a*b
+  d) / used for division - a/b
+  e) % modulus operator used to find remainder - a%b
+  f) ** exponential - a**b
+  g) // floor division - a//b
+ 
+ Comparison operators:
+  a) == equal to - a==b
+  b) != not equal to - a != b
+  c) > greater than - a > b
+  d) < less than - a < b
+  e) >= greater than or equal to - a >= b
+  f) <= less than or equal to - a <= b
+
+Logical Operators: 
+  a) and logical AND - a and b
+  b) or logical OR - a or b
+  c) not logical NOT - not a
+
+Bitwise Operators: 
+  a) & bitwise AND - a & b
+  b) | bitwise OR - a | b
+  c) ^ bitwise XOR - a ^ b
+  d) ~ bitwise NOT - ~a
+  e) << bitwise left shift - a << b
+  f) >> bitwise right shift - a >> b
+
+Assignment Operators: 
+  a) = assignment - a = b
+  b) += add and assign - a += b
+  c) -= subtract and assign - a -= b
+  d) *= multiply and assign - a *= b
+  e) /= divide and assign - a /= b
+  f) %= modulus and assign - a %= b
+  g) **= exponential and assign - a **= b
+  h) //= floor divide and assign - a //= b
+  i) &= bitwise AND and assign - a &= b
+  j) |= bitwise OR and assign - a |= b
+  k) ^= bitwise XOR and assign - a ^= b
+  l) <<= bitwise left shift and assign - a <<= b
+  m) >>= bitwise right shift and assign - a >>= b
+
+Identity Operators: 
+  a) is - a is b
+  b) is not - a is not b
+
+Membership Operators: 
+  a) in - a in b
+  b) not in - a not in b
+# 5.  Explain the concept of type casting in Python with examples.
+
+soln- Type casting is method to convert one data type into another. there are two types of type casting in python : Implicit and Explicit.
+      In implicit type casting, python converts one data type to another automatically. 
+      eg:
+
+      a = 7
+      print(type(a))
+
+    #insights: here python automatically converts this datatype to int.
+
+    In explicit, Python needs user involvement to convert the variable data type into the required data type.
+    eg: int(), float(), str()
+
+# 6.  How do conditional statements work in Python? Illustrate with examples.
+
+soln- Conditional statements allow us to make decisions in our code, which can make our code more efficient and easier to read. For example, if we want to print a message only if a certain condition is met, we can use a conditional statement.
+# if condition
+if 10 > 5:
+    print("10 greater than 5")
+
+print("Program ended")
+
+# if..else statement 
+x = 3
+if x == 4:
+    print("Yes")
+else:
+    print("No")
+
+# 7.  Describe the different types of loops in Python and their use cases with examples.
+
+soln- there are 3 types of loops in python :
+    a) for loop: Iterates over a sequence (e.g., list, tuple, string, dictionary).
+    b) while loop: Executes a block of code as long as a specified condition is true.
+    c) nested loop: one loop inside another loop.
